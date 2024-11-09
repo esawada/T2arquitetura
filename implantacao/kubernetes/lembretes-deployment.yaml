@@ -15,7 +15,6 @@ spec:
       containers:
         - name: tti301-lembretes
           image: rodbossini/tti301-lembretes
-          imagePullPolicy: Never
           resources:
             limits:
               memory: 256Mi
